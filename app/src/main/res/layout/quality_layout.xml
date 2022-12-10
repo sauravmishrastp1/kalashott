@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@drawable/ic_bottom_sheet_background"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvTittle"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="20dp"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:text="Low(320px)"
+            android:backgroundTint="@color/red"
+            android:id="@+id/low"
+            android:textSize="10dp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:text="Medium(720px)"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/red"
+            android:id="@+id/medium"
+            android:textSize="10dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/high"
+            android:text="High(1080px)"
+            android:textSize="10dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/red"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+
+    </LinearLayout>

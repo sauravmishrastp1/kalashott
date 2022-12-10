@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "461759467259",
+    "project_id": "ottp-6579f",
+    "storage_bucket": "ottp-6579f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461759467259:android:e50658d5dae5b50d9b6a5e",
+        "android_client_info": {
+          "package_name": "com.dd.samplevideoplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461759467259-5ifpgnukk2aeh7k9scsp8bucq42dkk2h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWTTdaASwbzJXYEWgnAh2rzhi89xpG6iI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461759467259-5ifpgnukk2aeh7k9scsp8bucq42dkk2h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

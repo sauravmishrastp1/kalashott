@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.dd.samplevideoplayer.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.dd.samplevideoplayer.ui.dashboard.CategoriesFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.dd.samplevideoplayer.ui.live.LiveFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_my_list"
+        android:name="com.dd.samplevideoplayer.ui.myList.MyListFragment"
+        android:label="My List"
+        tools:layout="@layout/fragment_my_list" />
+    <fragment
+        android:id="@+id/videoPlayFragment"
+        android:name="com.dd.samplevideoplayer.ui.video.VideoPlayFragment"
+        android:label="Back"
+        tools:layout="@layout/fragment_video_play" />
+    <fragment
+        android:id="@+id/funVideoFragment"
+        android:name="com.dd.samplevideoplayer.ui.FunVideoFragment"
+        android:label="All Videos"
+        tools:layout="@layout/fragment_fun_video" />
+    <fragment
+        android:id="@+id/horrorVideoFragment"
+        android:name="com.dd.samplevideoplayer.ui.HorrorVideoFragment"
+        android:label="Horror"
+        tools:layout="@layout/fragment_horror_video" />
+    <fragment
+        android:id="@+id/searchFragment"
+        tools:layout="@layout/fragment_search_list"
+        android:name="com.dd.samplevideoplayer.ui.search.SearchFragment"
+        android:label="Search" />
+    <fragment
+        android:id="@+id/navigation_about"
+        android:name="com.dd.samplevideoplayer.ui.about.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+</navigation>
